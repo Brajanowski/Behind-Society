@@ -1,0 +1,8 @@
+Food
+Fishes
+Sushi
+Fast Food
+Computers
+Phones
+Local Supermarket
+FoodShop

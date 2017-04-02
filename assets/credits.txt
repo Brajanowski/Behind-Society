@@ -1,0 +1,32 @@
+
+{255, 0, 0, 255}Special thanks to{pop}
+{255, 219, 87, 255}Jakub "Flexor111" Tytula{pop} - Translations, Motivation, Quests
+
+
+{255, 0, 0, 255} Libraries {pop}
+
+SFML (Simple and Fast Multimedia Library) - Copyright (c) Laurent Gomila
+
+dear imgui - Copyright (c) 2014-2015 Omar Cornut and ImGui contributors
+
+http://www.lua.org/ by PUC-Rio
+
+Lua Bridge
+Copyright 2012, Vinnie Falco (<vinnie.falco@gmail.com>)
+Copyright 2008, Nigel Atkinson
+Copyright 2007, Nathan Reed
+
+
+{255, 0, 0, 255} Music {pop}
+
+"Too cool" Kevin MacLeod (incompetech.com) 
+Licensed under Creative Commons: By Attribution 3.0
+http://creativecommons.org/licenses/by/3.0/
+
+"Voltaic" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 3.0 License
+http://creativecommons.org/licenses/by/3.0/
+
+"Plaint" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 3.0 License
+http://creativecommons.org/licenses/by/3.0/
