@@ -24,7 +24,7 @@ GameState.Game     = 3
 GameState.Gameover = 4
 GameState.Win      = 5
 
-local current_game_state = GameState.Game
+local current_game_state = GameState.Splash
 
 Gamemode = {}
 Gamemode.Game           = 0
@@ -68,14 +68,14 @@ Gameplay.Init = function()
   MainMenu.Init()
   
   -- new game
-  Gameplay.NewGame("Brajanowski", "fsociety")
-  Game.Data.draw_gameplay = true
-  Game.Data.place_computer_mode = false
+  -- Gameplay.NewGame("Brajanowski", "fsociety")
+  --Game.Data.draw_gameplay = true
+  --Game.Data.place_computer_mode = false
   Effects.DisableFX()
   --Effects.SetFX("blur_daystats")
   --display_hud = false
 
-  Gameplay.SetGameState(GameState.Game)
+  Gameplay.SetGameState(GameState.Splash)
 
   -- font
   Gui.ClearFonts()
@@ -120,7 +120,7 @@ Gameplay.Update = function()
     elseif current_game_mode == Gamemode.Intro then
       Intro.Show()
     elseif current_game_mode == Gamemode.NewGame then
-      --Gameplay.NewGameUpdate()
+      Gameplay.NewGameUpdate()
     end
 
     -- Hud
@@ -342,7 +342,7 @@ Gameplay.Update = function()
     Intro.Show()
   elseif current_game_state == GameState.Splash then
     Renderer.Draw(0, "splash",
-              "./assets/graphics/splash/splash_screen_author.png",
+              "./assets/graphics/splash/splash_screen_author.png", Math.Color(255, 255, 255, 255),
               Math.IntRect(0, 0, 320, 180),
               Math.Vector2f(0, 0),
               Math.Vector2f(1, 1), "default")
