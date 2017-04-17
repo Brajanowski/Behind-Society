@@ -142,6 +142,7 @@ InGameMenu.ShowSaveGame = function()
     Gui.SetCursorPosY(Gui.GetCursorPosY() + 8)
     if Gui.Button(button_string, Math.Vector2f(300, 32)) then
       Game.Data.Save(i)
+      Console.Log("Saving game on slot " .. i)
     end
   end
 

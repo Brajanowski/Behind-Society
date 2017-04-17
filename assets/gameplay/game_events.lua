@@ -310,7 +310,7 @@ GameEvents.Update = function()
             task.name = "Bomb code"
             task.points = 0
             task.points_to_finish = 16
-            task.days_to_quit = 2
+            task.days_to_finish = 2
             task.type = 2
             task.reward = math.random(75, 99)
             Game.Data.PushTask(task)

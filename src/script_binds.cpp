@@ -626,7 +626,7 @@ bool DataIsComputerHere(int x, int y) {
     int faced = engine->game.gamedata.computers[i].right ? 1 : -1;
     
     if ((engine->game.gamedata.computers[i].x == x || engine->game.gamedata.computers[i].x + faced == x) &&
-        engine->game.gamedata.computers[i].y == y) {
+        engine->game.gamedata.computers[i].y == y && engine->game.gamedata.computers[i].abode_id != -1) {
       return true;
     }
   }
